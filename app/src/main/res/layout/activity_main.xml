@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+>
+
+    <Button
+        android:id="@+id/button_01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Click Me"/>
+    <TextView
+        android:id="@+id/tvAppInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hello World!" />
+    <TextView
+        android:id="@+id/tvAppInfo_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hello World!" />
+    <ImageView
+        android:id="@+id/image_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picture01"/>
+
+    <com.example.zebiaowu.myapplication05.CircleView
+        android:id="@+id/image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:circle_left_bottom="100.0"
+        app:circle_left_top="100.0"
+        app:circle_right_bottom="0.0"
+        app:circle_right_top="40.0"
+        android:src="@drawable/picture01" />
+</LinearLayout>

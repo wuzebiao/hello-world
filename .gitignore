@@ -1,0 +1,17 @@
+.git/
+.gradle/
+gradle/
+.idea/
+build/
+gradlew
+gradlew.bat
+.ignore
+gradle.properties
+.idea/
+app/release/
+app/.ignore
+app/app.iml
+MyApplication05.iml
+local.properties
+
+
